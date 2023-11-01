@@ -2,6 +2,7 @@ package com.tarefa.caio.projeto.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import org.springframework.web.multipart.MultipartFile;
 
 public record UsuarioDto(
 
@@ -20,7 +21,9 @@ public record UsuarioDto(
     String designacao,
     String estado,
     String cidade,
-    String hora_semanal
+    String hora_semanal,
+
+    MultipartFile imagem
 
     ){
 

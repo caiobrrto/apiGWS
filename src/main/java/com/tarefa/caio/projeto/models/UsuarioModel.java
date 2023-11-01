@@ -37,4 +37,5 @@ public class UsuarioModel implements Serializable {
     private String estado;
     private String cidade;
    private String hora_semanal;
+   private String url_img;
 }
